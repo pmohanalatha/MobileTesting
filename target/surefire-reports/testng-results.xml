@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Appium Tests" duration-ms="133073" started-at="2022-05-15T00:00:57 IST" finished-at="2022-05-15T00:03:10 IST">
+    <groups>
+      <group name="regression">
+        <method signature="ProjectTests.addItemToShoppingBagProceedCheckout()[pri:0, instance:Tests.ProjectTests@78c03f1f]" name="addItemToShoppingBagProceedCheckout" class="Tests.ProjectTests"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="ProjectTests.addItemToShoppingBagProceedCheckout()[pri:0, instance:Tests.ProjectTests@78c03f1f]" name="addItemToShoppingBagProceedCheckout" class="Tests.ProjectTests"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Appium Testcases" duration-ms="133073" started-at="2022-05-15T00:00:57 IST" finished-at="2022-05-15T00:03:10 IST">
+      <class name="Tests.ProjectTests">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:Tests.ProjectTests@78c03f1f]" name="setupDriver" is-config="true" duration-ms="23177" started-at="2022-05-15T00:00:57 IST" finished-at="2022-05-15T00:01:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="addItemToShoppingBagProceedCheckout()[pri:0, instance:Tests.ProjectTests@78c03f1f]" name="addItemToShoppingBagProceedCheckout" duration-ms="105889" started-at="2022-05-15T00:01:20 IST" finished-at="2022-05-15T00:03:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemToShoppingBagProceedCheckout -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:Tests.ProjectTests@78c03f1f]" name="closeDriver" is-config="true" duration-ms="3937" started-at="2022-05-15T00:03:06 IST" finished-at="2022-05-15T00:03:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- Tests.ProjectTests -->
+    </test> <!-- Appium Testcases -->
+  </suite> <!-- Appium Tests -->
+</testng-results>

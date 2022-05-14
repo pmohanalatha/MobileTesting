@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Appium Tests">
+    <test name="Appium Testcases">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Tests.ProjectTests"/>
+        </classes>
+    </test>
+</suite>
